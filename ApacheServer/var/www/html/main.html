@@ -1,0 +1,127 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+    <title>Umile Server</title>
+    <meta content="Technonia" name="umile">
+    <link href="css/text.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <!-- 팝업 S / 반드시 최상위 맨바닥에 삽입..<body> 바로및에 삽입(test용) -->
+    <div id="all_popup" style="display: none;">
+
+
+
+        <div class="popupLayer">
+            <div class="back"></div>
+        </div>
+
+
+
+        <div class="popup_box" style="width: 500px; height: 500px; margin-left: -250px; margin-top: -250px;">
+            <!-- 변경될 수 있는값은 html에서 작성 -->
+            <iframe src="" mce_src="about:blank" title="" frameborder="0" scrolling="no"></iframe>
+
+            <div class="popup_contents">
+                <!-- popup_contents 안에서 자유 디자인 -->
+                <a href="#" onclick="document.getElementById('all_popup').style.display='none'; document.body.className='';"><b>창닫기</b></a>
+
+            </div>
+
+        </div>
+
+
+
+    </div>
+    <!-- 팝업 E -->
+    <table style="text-align: left; width: 100%;" border="0" cellpadding="0" cellspacing="0">
+        <tbody>
+            <tr>
+                <td style="vertical-align: top; height: 38px;">
+                    <img src="img/maintitle.jpg" alt="">
+                </td>
+                <td style="vertical-align: bottom; text-align: right; height: 38px;">
+                    <a href="#" onclick="document.getElementById('all_popup').style.display=''; document.body.className='mpopup';">Login</a> &nbsp;&nbsp;<br>
+                </td>
+            </tr>
+            <tr>
+                <td style="vertical-align: top; background-color: rgb(92, 184, 184); width: 200px; height: 20px;">
+                    <br>
+                </td>
+                <td style="background-color: rgb(92, 184, 184); height: 20px;">
+                    <b>Testing...</b><br>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table style="text-align: left; width: 100%; height: 90%;" border="0" cellpadding="2" cellspacing="2">
+
+        <tbody>
+            <tr>
+                <td style="vertical-align: top; width: 100px; height: 600px;">
+                    <br>
+                    <table style="text-align: left; width: 100%;" border="0" cellpadding="2" cellspacing="2">
+                        <tbody>
+                            <tr>
+                                <td style="vertical-align: top;">
+                                    <a href="listup.php" target="main">home</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="vertical-align: top;">
+                                    <br>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="vertical-align: top;">
+                                    - <target ="main">Sentinel 관리</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="vertical-align: top;">
+                                    &nbsp;&nbsp; &nbsp;<a href="Sentinel_Reg.html" target="main">등록</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="vertical-align: top;">
+                                    &nbsp;&nbsp; &nbsp;<a href="Sentinel_Del.html" target="main">삭제</a>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td style="vertical-align: top;">
+                                    - Passenger 관리<target ="main"></a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="vertical-align: top;">
+                                    &nbsp;&nbsp; &nbsp;<a href="Passengers_Reg.html" target="main">등록</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="vertical-align: top;">
+                                    &nbsp;&nbsp; &nbsp;<a href="Passengers_Del.html" target="main">삭제</a>
+                                </td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+
+                </td>
+                <td style="vertical-align: top;">
+                    <iframe src="main_frame.html" name="main" marginwidth="0" marginheight="0" frameborder="0" height="600" scrolling="no" width="100%"></iframe>
+                    <br>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" rowspan="1" style="">
+                    <img style="width: 100%; height: 9px;" src="img/line.jpg" alt=""><br>
+                    <img src="img/technonia_logo.png" alt=""> &nbsp;&nbsp;Copyright 2012 TECHNONIA, Al Rights Reserved.
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
